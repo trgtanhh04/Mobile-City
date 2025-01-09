@@ -45,3 +45,27 @@ Mobile phones are essential tools in the modern world. With diverse brands, mode
 │                     
 ├── ...                                        <- Other unimportant files and folders.
 ```
+
+# How to Run the Project
+
+### **1. Clone the Repository**
+First, download the project by cloning it to your local machine:
+
+```bash
+git clone https://github.com/trgtanhh04/Mobile-City.git
+cd Mobile-City
+```
+
+### **2. Set Up the Conda Environment**
+
+- **Create a new Conda environment:**
+
+```bash
+conda create -n mobile_city_env python=3.8 -y
+conda activate mobile_city_env
+```
+
+- **Install required libraries:**
+
+```bash
+pip install -r requirements.txt
