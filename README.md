@@ -4,8 +4,9 @@
 
 # Chi tiết đồ án
 
-**Topic**: Phân tích thị trường điện thoại di động thông qua cửa hàng Mobile City tại Việt Nam.
-**Data Source**: Nguồn dữ liệu: Dữ liệu được thu thập bằng các công cụ như Selenium và Beautiful Soup từ  [Mobile City website](https://mobilecity.vn), một nhà bán lẻ thiết bị điện tử như điện thoại, máy tính, linh kiện và phụ kiện.
+**Chủ đề**: Phân tích thị trường điện thoại di động thông qua cửa hàng Mobile City tại Việt Nam.
+
+**Nguồn dữ liệu:** Dữ liệu được thu thập bằng các công cụ như Selenium và Beautiful Soup từ  [Mobile City website](https://mobilecity.vn), một nhà bán lẻ thiết bị điện tử như điện thoại, máy tính, linh kiện và phụ kiện.
 
 **Idea**: Conducting a comprehensive data science workflow, including:
 - Thu thập dữ liệu.
@@ -46,8 +47,20 @@
 
 # Diagram
 <p align="center">
-  <img src="https://github.com/trgtanhh04/Mobile-City/blob/main/workflow.png" width="60%" alt="MVC Pattern">
+  <img src="https://github.com/trgtanhh04/Mobile-City/blob/main/workflow.png" width="60%" alt="Workflow">
 </p>
+
+# Quy Trình Xử Lý Dữ Liệu
+1. Thu Thập Dữ Liệu:
+- Crawler định kỳ chạy theo lịch trình để thu thập dữ liệu về điện thoại từ nhiều nguồn đa dạng. Quá trình này đảm bảo tất cả các nguồn dữ liệu liên quan đều được thu thập một cách đầy đủ.
+
+2. Lưu Trữ Thô:
+- Dữ liệu thu thập được ban đầu được lưu trữ dưới dạng csv trong hệ thống tệp cục bộ, tạo thành kho chứa dữ liệu thô cho các bước xử lý tiếp theo.
+
+3. Xử lý và làm sạch dữ liệu:
+- Dùng các kỹ thuật phân tích và quan sát, chuẩn hóa dữ liệu theo đúng định dạng, xử lý dữ liệu bị thiếu, bị sai..vv
+4. Ứng Dụng:
+- API: Xây dựng API cho hệ thống tư vấn điện thoại, cho phép truy vấn dữ liệu theo yêu cầu và đưa ra các sản phẩm tương tự.
 
 # How to Run the Project
 
