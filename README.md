@@ -62,6 +62,12 @@
 4. Ứng Dụng:
 - API: Xây dựng API cho hệ thống tư vấn điện thoại, cho phép truy vấn dữ liệu theo yêu cầu và đưa ra các sản phẩm tương tự.
 
+# Hệ thống tư vấn điện thoại
+<p align="center">
+  <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img1.png width="48%" alt="Admin Dashboard">
+  <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img2.png width="48%" alt="Client Dashboard">
+</p>
+
 # How to Run the Project
 
 ### **1. Clone the Repository**
