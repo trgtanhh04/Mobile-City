@@ -16,7 +16,7 @@
 - Xây dựng mô hình đề xuất điện thoại dựa trên yêu cầu của người dùng.
 ---
 
-# GitHub Structure
+# Cấu trúc dự án
 
 ```
 ├── README.md                                  <- The top-level README for developers using this project.
