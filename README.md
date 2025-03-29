@@ -65,8 +65,8 @@
 # Hệ thống tư vấn điện thoại
 Hệ thống yêu cầu người dùng nhập đủ các thông tin về điện thoại mà mình mong muốn, hệ thống sẽ tiếp nhập input và đưa vào xử lý, lable dữ liệu. Áp dụng các thuật toán học máy để tìm ra các sản phẩm điện thoại có độ tương đồng cao nhất mà người dùng mong muốn. Cuối cùng hệ thống sẽ hiển thị những điện thoại mà người dùng mong muốn.
 <p align="center">
-  <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img1.png width="48%" alt="Admin Dashboard">
-  <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img2.png width="48%" alt="Client Dashboard">
+  <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img1.png width="60%" alt="Admin Dashboard">
+  <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img2.png width="60%" alt="Client Dashboard">
 </p>
 
 # How to Run the Project
