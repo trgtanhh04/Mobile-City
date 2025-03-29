@@ -46,7 +46,7 @@
 
 # Diagram
 <p align="center">
-  <img src="https://github.com/trgtanhh04/Mobile-City/blob/main/workflow.png" width="70%" alt="MVC Pattern">
+  <img src="https://github.com/trgtanhh04/Mobile-City/blob/main/workflow.png" width="60%" alt="MVC Pattern">
 </p>
 
 # How to Run the Project
