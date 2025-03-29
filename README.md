@@ -69,26 +69,27 @@ Hệ thống yêu cầu người dùng nhập đủ các thông tin về điện
   <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img2.png width="60%" alt="Client Dashboard">
 </p>
 
-# How to Run the Project
+# Cách cài đặt project
 
-### **1. Clone the Repository**
-First, download the project by cloning it to your local machine:
-
+1. Tải đồ án về máy cá nhân
 ```bash
 git clone https://github.com/trgtanhh04/Mobile-City.git
 cd Mobile-City
 ```
 
-### **2. Set Up the Conda Environment**
-
-- **Create a new Conda environment:**
-
+2. Tạo môi trường
 ```bash
 conda create -n mobile_city_env python=3.8 -y
 conda activate mobile_city_env
 ```
 
-- **Install required libraries:**
+3. Tải các thư viện cần thiết.
 
 ```bash
 pip install -r requirements.txt
+```
+
+# Cách chạy project
+```bash
+streamlit run app.py
+```
