@@ -1,20 +1,18 @@
-# Overview of the Project
-Mobile phones are essential tools in the modern world. With diverse brands, models, designs, and prices, analyzing the mobile phone market provides valuable insights into customer needs and market trends in Vietnam.
-
+# Giới thiệu đồ án
+Điện thoại là một công cụ không thể thiếu trong cuộc sống hiện đại. Với sự đa dạng về thương hiệu, mẫu mã, thiết kế và giá cả, việc phân tích thị trường điện thoại di động giúp cung cấp những thông tin quan trọng về nhu cầu của khách hàng và xu hướng thị trường tại Việt Nam.
 ---
 
-# Project Details
+# Chi tiết đồ án
 
-**Topic**: Analyzing the mobile phone market through a mobile phone store (Mobile City) in Vietnam.
-
-**Data Source**: Data was scraped using tools like Selenium and Beautiful Soup from the [Mobile City website](https://mobilecity.vn), a retailer of electronic devices such as phones, computers, components, and accessories.
+**Topic**: Phân tích thị trường điện thoại di động thông qua cửa hàng Mobile City tại Việt Nam.
+**Data Source**: Nguồn dữ liệu: Dữ liệu được thu thập bằng các công cụ như Selenium và Beautiful Soup từ  [Mobile City website](https://mobilecity.vn), một nhà bán lẻ thiết bị điện tử như điện thoại, máy tính, linh kiện và phụ kiện.
 
 **Idea**: Conducting a comprehensive data science workflow, including:
-- Data collection.
-- Data exploration and preprocessing.
-- In-depth analysis to interpret issues using data.
-- Data modeling: Predicting the price of a mobile phone based on its features.
-
+- Thu thập dữ liệu.
+- Khám phá và tiền xử lý dữ liệu.
+- Phân tích chuyên sâu để rút ra các vấn đề từ dữ liệu.
+- Xây dựng mô hình dự đoán giá điện thoại dựa trên các đặc điểm của sản phẩm.
+- Xây dựng mô hình đề xuất điện thoại dựa trên yêu cầu của người dùng.
 ---
 
 # GitHub Structure
@@ -45,6 +43,10 @@ Mobile phones are essential tools in the modern world. With diverse brands, mode
 │                     
 ├── ...                                        <- Other unimportant files and folders.
 ```
+
+# Diagram
+![Workflow](https://github.com/trgtanhh04/Mobile-City/blob/main/workflow.png)
+
 
 # How to Run the Project
 
