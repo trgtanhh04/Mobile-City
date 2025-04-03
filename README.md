@@ -69,6 +69,37 @@ Hệ thống yêu cầu người dùng nhập đủ các thông tin về điện
   <img src=https://github.com/trgtanhh04/Mobile-City/blob/main/img2.png width="60%" alt="Client Dashboard">
 </p>
 
+# So sánh ba mô hình Machine Learning
+
+## 1. Giới thiệu
+Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression, Random Forest và XGBoost. Mục tiêu là đánh giá hiệu suất và chọn ra mô hình tốt nhất dành cho bài toán dự báo.
+
+## 2. Mô hình so sánh
+
+### 2.1 Logistic Regression
+- Là một mô hình tháng tuyến đơn giản, dễ hiểu và dễ triển khai.
+- Thích hợp với các bài toán dự báo nhị phân.
+- Hiệu suất không cao khi dữ liệu phức tạp và không tuyến tính.
+
+### 2.2 Random Forest
+- Là mô hình tập hợp cây quyết định, giảm overfitting so với cây quyết định đơn lẻ.
+- Không yêu cầu nhiều xử lý dữ liệu, hoạt động tốt trên tập dữ liệu lớn.
+- Hiệu suất tốt nhưng có thể chậm hơn so với các mô hình khác.
+
+### 2.3 XGBoost
+- Là mô hình boosting dựa trên cây quyết định, tối ưu hóa tốc độ và hiệu suất.
+- Xử lý tốt các dữ liệu phức tạp, giảm thiểu overfitting.
+- Thường được dùng trong các cuộc thi Machine Learning nhờ hiệu suất vượt trội.
+
+## 3. Kết luận
+Sau khi so sánh và đánh giá hiệu suất của ba mô hình, chúng tôi quyết định chọn **XGBoost** do:
+- Hiệu suất cao nhất trên tập dữ liệu.
+- Giảm overfitting tốt hơn Random Forest.
+- Tốc độ nhanh hơn khi dự báo.
+
+Mô hình XGBoost là sự lựa chọn tối ưu cho bài toán này.
+
+
 # Cách cài đặt project
 
 1. Tải đồ án về máy cá nhân
