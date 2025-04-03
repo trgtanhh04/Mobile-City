@@ -72,11 +72,11 @@ Hệ thống yêu cầu người dùng nhập đủ các thông tin về điện
 # So sánh ba mô hình Machine Learning
 
 ## 1. Giới thiệu
-Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression, Random Forest và XGBoost. Mục tiêu là đánh giá hiệu suất và chọn ra mô hình tốt nhất dành cho bài toán dự báo.
+Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression, Random Forest và XGBoost. Mục tiêu là đánh giá hiệu suất và chọn ra mô hình tốt nhất để dự đoán giá của một chiếc điện thoại dựa vào các tập thuộc tính đã train.
 
 ## 2. Mô hình so sánh
 
-### 2.1 Logistic Regression
+### 2.1 Decision tree
 - Là một mô hình tháng tuyến đơn giản, dễ hiểu và dễ triển khai.
 - Thích hợp với các bài toán dự báo nhị phân.
 - Hiệu suất không cao khi dữ liệu phức tạp và không tuyến tính.
@@ -92,7 +92,7 @@ Dự án này nhằm so sánh ba mô hình Machine Learning: Logistic Regression
 - Thường được dùng trong các cuộc thi Machine Learning nhờ hiệu suất vượt trội.
 
 ## 3. Kết luận
-Sau khi so sánh và đánh giá hiệu suất của ba mô hình, chúng tôi quyết định chọn **XGBoost** do:
+Sau khi so sánh và đánh giá hiệu suất của ba mô hình, quyết định chọn **XGBoost** do:
 - Hiệu suất cao nhất trên tập dữ liệu.
 - Giảm overfitting tốt hơn Random Forest.
 - Tốc độ nhanh hơn khi dự báo.
