@@ -37,7 +37,7 @@
 │   ├── 2.0-preprocessing.ipynb                <- Notebook for preprocessing.
 │   ├── 3.0-eda.ipynb                          <- Notebook for exploratory data analysis.
 │   ├── 4.0-data-modelling.ipynb               <- Notebook for data modelling.
-│   ├── 5.0-reflection.ipynb                   <- Contain reflection information of our group and each team member.
+│
 │
 ├── submit                                     <- Folder for submitting Moodle.
 │   ├── ...
